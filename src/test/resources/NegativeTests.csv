@@ -1,0 +1,8 @@
+test, http://google.com/ , API Error: URL is empty
+url, google.com , API Error: URL is invalid (check #1)
+url, http://google , API Error: URL is invalid. (check #2)
+url, test , API Error: URL is invalid (check #1)
+url, https%3A%2F%2Fgoogle.com%2F , API Error: URL is invalid (check #1)
+url, https://cleanuri.com/ , API Error: This domain blocked in our system
+
+
